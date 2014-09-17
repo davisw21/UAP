@@ -1,0 +1,130 @@
+$.fn.numericExample = function () {
+	'use strict';
+	var element = $(this),
+		footer = element.find('tfoot tr'),
+		dataRows = element.find('tbody tr'),
+		initialcourses = function () {
+			var column, courses;
+			for (column = 1; column < footer.children().size(); column++) {
+				courses = 0;
+				dataRows.each(function () {
+					var row = $(this);
+					courses += parseFloat(row.children().eq(column).text());
+				});
+				footer.children().eq(column).text(courses);
+			};
+		};
+	element.find('td').on('change', function (evt) {
+		var cell = $(this),
+			column = cell.index(),
+			courses = 0;
+		if (column === 0) {
+			return;
+		}
+		element.find('tbody tr').each(function () {
+			var row = $(this);
+			courses += parseFloat(row.children().eq(column).text());
+		});
+		if (column === 1 && courses > 5000) {
+			$('.alert').show();
+			return false; // changes can be rejected
+		} else {
+			$('.alert').hide();
+			footer.children().eq(column).text(courses);
+		}
+	}).on('validate', function (evt, value) {
+		var cell = $(this),
+			column = cell.index();
+		if (column === 0) {
+			return !!value && value.trim().length > 0;
+		} else {
+			return !isNaN(parseFloat(value)) && isFinite(value);
+		}
+	});
+	initialcourses();
+	return this;
+};
+
+
+
+
+
+
+
+
+<?php 
+
+class requirementEntity {
+	public $course;
+	public $description;
+	public $bool;
+
+	function __construct($course, $description, $bool) {
+		$this->course = $course;
+		$this->desc = $desc;
+		$this->bool = $bool;
+	}
+}
+
+function GetProgram(string $p) {
+
+	$q = "SELECT course FROM reqprogram WHERE program LIKE '$p'";
+	$query = mysql_query($q) or die(mysql_error());
+	$result = array();
+
+		//Get data from database
+	while ($row = mysql_fetch_array($query)) {
+		$course = $row[1];
+		$desc = $row[2];
+		$bool = $row[3];
+		$req = new requirementEntity(-1, $course, $desc, $bool);
+		array_push($result, $req);
+	}
+
+		//Close the connection
+	mysql_close();
+	return $result;
+}
+
+function DisplayCourses(array $valueArray) {
+	$result = array();
+	foreach ($valueArray as $value) {
+		array_push($result, $value->course);
+	}
+	return $result();
+}
+
+
+
+?>
+
+<div class="row placeholders">
+          <div class="col-xs-6 col-sm-2 placeholder">
+            <h4>Program</h4>
+
+          </div>
+          <div class="col-xs-6 col-sm-2 placeholder">
+            <h4>Concentration</h4>
+
+          </div>
+          <div class="col-xs-6 col-sm-2 placeholder">
+            <h4>Majors</h4>
+          </div>
+          <div class="col-xs-6 col-sm-2 placeholder">
+            <h4>Majors</h4>
+            <select class="span3">
+              <option>None</option>
+              <option>Actuarial Science</option>
+              <option>Statistics</option>
+              <option>Mathematical Finance</option>
+              <option>Combinatorics</option>
+            </select>
+          </div>
+          <div class="col-xs-6 col-sm-2 placeholder">
+            <h4>Designations</h4>
+          </div>
+          <div class="col-xs-6 col-sm-2 placeholder">
+            <h4>Label</h4>
+            <span class="text-muted">Something else</span>
+          </div>
+        </div>

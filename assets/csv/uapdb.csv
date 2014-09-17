@@ -1,0 +1,208 @@
+0,Math/BBA,MATH135,MATH135/145,TakingThisCourse('MATH135') || TakingThisCourse('MATH145')
+0,Math/BBA,MATH137,MATH137/147,TakingThisCourse('MATH137') || TakingThisCourse('MATH147')
+0,Math/BBA,MATH136,MATH136/146,TakingThisCourse('MATH136') || TakingThisCourse('MATH146')
+0,Math/BBA,MATH138,MATH138/148,TakingThisCourse('MATH138') || TakingThisCourse('MATH148')
+0,Math/BBA,MATH235,MATH235/245,TakingThisCourse('MATH235') || TakingThisCourse('MATH245')
+0,Math/BBA,MATH237,MATH237/247,TakingThisCourse('MATH237') || TakingThisCourse('MATH247')
+0,Math/BBA,MATH239,MATH239/249,TakingThisCourse('MATH239') || TakingThisCourse('MATH249')
+0,Math/BBA,CS115,CS115/135/145,TakingThisCourse('CS115') || TakingThisCourse('CS135') || TakingThisCourse('CS145') 
+0,Math/BBA,CS116,CS116/136/145,TakingThisCourse('CS116') || TakingThisCourse('CS136') || TakingThisCourse('CS146') || (TakingThisCourse('CS145') && TakingThisCourse('CS241'))
+0,Math/BBA,STAT230,STAT230/240,TakingThisCourse('STAT230') || TakingThisCourse('STAT240')
+0,Math/BBA,STAT231,STAT231/241,TakingThisCourse('STAT231') || TakingThisCourse('STAT241')
+0,Math/BBA,ACTSC231,ACTSC231,TakingThisCourse('ACTSC231')
+0,Math/BBA,STAT371,STAT371,TakingThisCourse('STAT371')
+0,Math/BBA,STAT372,STAT372,TakingThisCourse('STAT372')
+0,Math/BBA,CS330,CS330,TakingThisCourse('CS330')
+0,Math/BBA,CO250,CO250,TakingThisCourse('CO250')
+0,Math/BBA,CO370,CO370,TakingThisCourse('CO370')
+0,Math/BBA,7 Additional Math,7 Additional Math Courses (24 in Total),NumberOfMathCourses() >= 24
+0,Math/BBA,BU111,BU111,TakingThisCourse('BU111')
+0,Math/BBA,BU121,BU121,TakingThisCourse('BU121')
+0,Math/BBA,EC120,EC120,TakingThisCourse('EC120')
+0,Math/BBA,EC140,EC140,TakingThisCourse('EC140')
+0,Math/BBA,EC250/EC260,EC250/EC260,TakingThisCourse('EC250') || TakingThisCourse('EC260')
+0,Math/BBA,BU227,BU227,TakingThisCourse('BU227')
+0,Math/BBA,BU288,BU288,TakingThisCourse('BU288')
+0,Math/BBA,BU247,BU247,TakingThisCourse('BU247')
+0,Math/BBA,BU231,BU231,TakingThisCourse('BU231')
+0,Math/BBA,BU352,BU352,TakingThisCourse('BU352')
+0,Math/BBA,BU354,BU354,TakingThisCourse('BU354')
+0,Math/BBA,BU383,BU383,TakingThisCourse('BU383')
+0,Math/BBA,BU385,BU385,TakingThisCourse('BU385')
+0,Math/BBA,BU362,BU362,TakingThisCourse('BU362')
+0,Math/BBA,BU393,BU393,TakingThisCourse('BU393')
+0,Math/BBA,BU395,BU395,TakingThisCourse('BU395')
+0,Math/BBA,BU398,BU398,TakingThisCourse('BU398')
+0,Math/BBA,BU481,BU481,TakingThisCourse('BU481')
+0,Math/BBA,BU491,BU491,TakingThisCourse('BU491')
+0,Math/BBA,"5 of BU3XX, BU4XX",5 Additional 300- or 400-level Bu Courses (24 BU courses total),"(CountByFamilyAndLevel('BU', 3) + CountByFamilyAndLevel('BU', 4)) >=  15"
+0,Math/BBA,4 of Any,At least 52 credits total,TotalCount() >= 52
+0,CS/BBA,CS135,CS135 or CS145,TakingThisCourse('CS135') || TakingThisCourse('CS145') 
+0,CS/BBA,CS136,CS136 or CS146,TakingThisCourse('CS136') || TakingThisCourse('CS146')
+0,CS/BBA,MATH135,MATH135/145,TakingThisCourse('MATH135') || TakingThisCourse('MATH145')
+0,CS/BBA,MATH137,MATH137/147,TakingThisCourse('MATH137') || TakingThisCourse('MATH147')
+0,CS/BBA,MATH136,MATH136/146,TakingThisCourse('MATH136') || TakingThisCourse('MATH146')
+0,CS/BBA,MATH138,MATH138/148,TakingThisCourse('MATH138') || TakingThisCourse('MATH148')
+0,CS/BBA,MATH239,MATH239/249,TakingThisCourse('MATH239') || TakingThisCourse('MATH249')
+0,CS/BBA,STAT230,STAT230/240,TakingThisCourse('STAT230') || TakingThisCourse('STAT240')
+0,CS/BBA,STAT231,STAT231/241,TakingThisCourse('STAT231') || TakingThisCourse('STAT241')
+0,CS/BBA,CO250,CO250,TakingThisCourse('CO250')
+0,CS/BBA,CS240,CS240,TakingThisCourse('CS240')
+0,CS/BBA,CS241,CS241,TakingThisCourse('CS241')
+0,CS/BBA,CS245,CS245,TakingThisCourse('CS245')
+0,CS/BBA,CS246,CS246,TakingThisCourse('CS246')
+0,CS/BBA,CS251,CS251,TakingThisCourse('CS251')
+0,CS/BBA,CS341,CS341,TakingThisCourse('CS341')
+0,CS/BBA,CS350,CS350,TakingThisCourse('CS350')
+0,CS/BBA,CS490,CS490,TakingThisCourse('CS490')
+0,CS/BBA,CS492,CS492,TakingThisCourse('CS492')
+0,CS/BBA,ENGL210,ENGL210,TakingThisCourse('ENGL210')
+0,CS/BBA,4 of CS3XX or CS4XX,Four additional CS Courses from CS340-398 or CS440-489,"CountByFamilyAndRange('CS',340,398) + CountByFamilyAndRange('CS',440,489) >= 4"
+0,CS/BBA,2 of CS4XX,At least two courses (from the above) from CS440-489,"CountByFamilyAndRange('CS',440,489) >= 2"
+0,CS/BBA,1 of Systems and SE,"One of CS343, 349, 442, 444, 445, 446, 447, 450, 452, 454, 456, 457, 458",(Count('CS458') + Count('CS457') + Count('CS456') + Count('CS454') + Count('CS452') + Count('CS450') + Count('CS447') + Count('CS446') + Count('CS445') + Count('CS444') + Count('CS442') + Count('CS349') + Count('CS343')) >= 1
+0,CS/BBA,1 of Applications,"One of CS348, 448, 473, 476, 482, 483, 486, 488",(Count('CS488') + Count('CS486') + Count('CS483') + Count('CS482') + Count('CS476') + Count('CS473') + Count('CS448') + Count('CS348')) >= 1
+0,CS/BBA,1 of Mathematical Foundations,"One of CS360, 365, 370, 371, 462, 466, 467, 475, 487",(Count('CS487') + Count('CS475') + Count('CS467') + Count('CS466') + Count('CS462') + Count('CS371') + Count('CS370') + Count('CS365') + Count('CS360')) >= 1
+0,CS/BBA,BU111,BU111,TakingThisCourse('BU111')
+0,CS/BBA,BU121,BU121,TakingThisCourse('BU121')
+0,CS/BBA,EC120,EC120,TakingThisCourse('EC120')
+0,CS/BBA,EC140,EC140,TakingThisCourse('EC140')
+0,CS/BBA,EC250/EC260,EC250/EC260,TakingThisCourse('EC250') || TakingThisCourse('EC260')
+0,CS/BBA,BU227,BU227,TakingThisCourse('BU227')
+0,CS/BBA,BU288,BU288,TakingThisCourse('BU288')
+0,CS/BBA,BU247,BU247,TakingThisCourse('BU247')
+0,CS/BBA,BU231,BU231,TakingThisCourse('BU231')
+0,CS/BBA,BU352,BU352,TakingThisCourse('BU352')
+0,CS/BBA,BU354,BU354,TakingThisCourse('BU354')
+0,CS/BBA,BU383,BU383,TakingThisCourse('BU383')
+0,CS/BBA,BU385,BU385,TakingThisCourse('BU385')
+0,CS/BBA,BU362,BU362,TakingThisCourse('BU362')
+0,CS/BBA,BU393,BU393,TakingThisCourse('BU393')
+0,CS/BBA,BU395,BU395,TakingThisCourse('BU395')
+0,CS/BBA,BU398,BU398,TakingThisCourse('BU398')
+0,CS/BBA,BU481,BU481,TakingThisCourse('BU481')
+0,CS/BBA,BU491,BU491,TakingThisCourse('BU491')
+0,CS/BBA,"5 of BU3XX, BU4XX",5 Additional 300- or 400-level Bu Courses (24 BU courses total),"(CountByFamilyAndLevel('BU', 3) + CountByFamilyAndLevel('BU', 4)) >= 15"
+1,Actsci Finance Option,ACTSC232,ACTSC232,TakingThisCourse('ACTSC232')
+1,Actsci Finance Option,ACTSC331,ACTSC331,TakingThisCourse('ACTSC331')
+1,Actsci Finance Option,ACTSC431,ACTSC431,TakingThisCourse('ACTSC431')
+1,Actsci Finance Option,ACTSC445,ACTSC445,TakingThisCourse('ACTSC445')
+1,Actsci Finance Option,ACTSC446,ACTSC446,TakingThisCourse('ACTSC446')
+1,Actsci Finance Option,STAT330,STAT330,TakingThisCourse('STAT330')
+1,Actsci Finance Option,STAT333,STAT333,TakingThisCourse('STAT333')
+1,Actsci Finance Option,STAT340,STAT340,TakingThisCourse('STAT340')
+1,Actsci Finance Option,"3 of ACTSC3XX, ACTSC4XX, STAT433, STAT443, BU473","3 of ACTSC3XX, ACTSC4XX, STAT433, STAT443, BU473","(CountByFamilyAndLevel('ACTSC',3) + CountByFamilyAndLevel('ACTSC',4) + Count('STAT433') +  Count('STAT443') +  Count('BU473') - Count('ACTSC331') - Count('ACTSC431') - Count('ACTSC445') - Count('ACTSC446')) >= 3"
+1,Actuarial Science,ACTSC232,ACTSC232,TakingThisCourse('ACTSC232')
+1,Actuarial Science,ACTSC331,ACTSC331,TakingThisCourse('ACTSC331')
+1,Actuarial Science,ACTSC431,ACTSC431,TakingThisCourse('ACTSC431')
+1,Actuarial Science,ACTSC432,ACTSC432,TakingThisCourse('ACTSC432')
+1,Actuarial Science,STAT330,STAT330,TakingThisCourse('STAT330')
+1,Actuarial Science,STAT333,STAT333,TakingThisCourse('STAT333')
+1,Actuarial Science,STAT340,STAT340,TakingThisCourse('STAT340')
+1,Actuarial Science,"4 of ACTSC3XX, ACTSC4XX, STAT433, STAT443, BU473","4 of ACTSC3XX, ACTSC4XX, STAT433, STAT443, BU473","(CountByFamilyAndLevel('ACTSC',3) + CountByFamilyAndLevel('ACTSC',4) + Count('STAT433') +  Count('STAT443') +  Count('BU473') - Count('ACTSC331') - Count('ACTSC431') - Count('ACTSC445') - Count('ACTSC446')) >= 4"
+1,Applied Math,AMATH231,AMATH231,TakingThisCourse('AMATH231')
+1,Applied Math,AMATH250,AMATH250,TakingThisCourse('AMATH250')
+1,Applied Math,AMATH261,AMATH261,TakingThisCourse('AMATH261')
+1,Applied Math,AMATH332,AMATH332,TakingThisCourse('AMATH332')
+1,Applied Math,AMATH341,AMATH341,TakingThisCourse('AMATH341')
+1,Applied Math,AMATH351,AMATH351,TakingThisCourse('AMATH351')
+1,Applied Math,AMATH353,AMATH353,TakingThisCourse('AMATH353')
+1,Applied Math,PHYS121,PHYS121,TakingThisCourse('PHYS121')
+1,Applied Math,PHYS122,PHYS122,TakingThisCourse('PHYS122')
+1,Applied Math,3 of AMATH4XX,3 of AMATH4XX,"CountByFamilyAndLevel('AMATH', 4) >= 3"
+1,Applied Math,"2 of AMATH3XX, AMATH4XX","2 of AMATH3XX, AMATH4XX","(CountByFamilyAndLevel('AMATH',3) + CountByFamilyAndLevel('AMATH',4) - Count('AMATH332') - Count('AMATH341') - Count('AMATH351') - Count('AMATH353')) >= 5"
+1,Combinatorics and Optimization,CO330/CO342,CO330/CO342,TakingThisCourse('CO330') || TakingThisCourse('CO342')
+1,Combinatorics and Optimization,CO351/CO367,CO351/CO367,TakingThisCourse('CO351') || TakingThisCourse('CO367')
+1,Combinatorics and Optimization,"3 of CO330, 331, 342, 351, 355, 367, CO4XX (except CO480)","3 of CO330, 331, 342, 351, 355, 367, CO4XX (except CO480)","(Count('CO367') + Count('CO355') + Count('CO351') + Count('CO342') + Count('CO331') + Count('CO330') + CountByFamilyAndLevel('CO', 4) - Count('CO480')) >= 3"
+1,Combinatorics and Optimization,PMATH336/346,PMATH336 or 346,TakingThisCourse('PMATH336') || TakingThisCourse('PMATH346')
+1,Combinatorics and Optimization,"2 of PMATH3XX, PMATH440, CM433, CM472","2 of PMATH331, PMATH351, PMATH332, PMATH352, PMATH334, PMATH345, PMATH340, PMATH440, CM433, CM472",(Count('PMATH440') + Count('PMATH340') + Count('PMATH345') + Count('PMATH334') + Count('CM472') + Count('CM433') + Count('PMATH352') + Count('PMATH332') + Count('PMATH351') + Count('PMATH331')) >= 2
+1,Operations Research,CM271/CS370,CM271 or CS370,TakingThisCourse('CM271') || TakingThisCourse('CS370')
+1,Operations Research,CO351/CO353,CO351 or CO353,TakingThisCourse('CO351') || TakingThisCourse('CO353')
+1,Operations Research,CS234,CS234,TakingThisCourse('CS234')
+1,Operations Research,STAT333,STAT333,TakingThisCourse('STAT333')
+1,Operations Research,STAT340,STAT340,TakingThisCourse('STAT340')
+1,Operations Research,"2 of AMATH250, CO3XX, CO4XX, CS338, CS432, CS430, STAT4XX","2 of AMATH250, CO342, CO367, CO372, CO450, CO452, CO453, CO454, CO456, CO463, CO466, CO471, CO487, CS430, STAT433, STAT435, STAT443, CS338, CS432",(Count('CS432') + Count('CS338') + Count('STAT443') + Count('STAT435') + Count('STAT433') + Count('CS430') + Count('CO487') + Count('CO471') + Count('CO466') + Count('CO463') + Count('CO456') + Count('CO454') + Count('CO453') + Count('CO452') + Count('CO450') + Count('CO372') + Count('CO367') + Count('CO342') + Count('AMATH250')) >= 2
+1,Operations Research,2 Math Courses,2 Additional Math courses (26 Math courses in total),NumberOfMathCourses() >= 26
+1,Mathematical Finance,ACTSC445,ACTSC445,TakingThisCourse('ACTSC445')
+1,Mathematical Finance,ACTSC446,ACTSC446,TakingThisCourse('ACTSC446')
+1,Mathematical Finance,AMATH250,AMATH250,TakingThisCourse('AMATH250')
+1,Mathematical Finance,CM271,CM271,TakingThisCourse('CM271')
+1,Mathematical Finance,PMATH351,PMATH351,TakingThisCourse('PMATH351')
+1,Mathematical Finance,PMATH354,PMATH354,TakingThisCourse('PMATH354')
+1,Mathematical Finance,STAT330,STAT330,TakingThisCourse('STAT330')
+1,Mathematical Finance,STAT333,STAT333,TakingThisCourse('STAT333')
+1,Mathematical Finance,STAT443,STAT443,TakingThisCourse('STAT443')
+1,Mathematical Finance,PMATH451,PMATH451,TakingThisCourse('PMATH451')
+1,Mathematical Finance,"1 of AMATH353, PMATH453, CO372, CS476","1 of AMATH353, PMATH453, CO372, CS476",(Count('CS476') + Count('CO372') + Count('PMATH453') + Count('AMATH353')) >= 1
+1,Pure Math,PMATH345,PMATH345,TakingThisCourse('PMATH345')
+1,Pure Math,PMATH346,PMATH346,TakingThisCourse('PMATH346')
+1,Pure Math,PMATH351,PMATH351,TakingThisCourse('PMATH351')
+1,Pure Math,PMATH352,PMATH352,TakingThisCourse('PMATH352')
+1,Pure Math,PMATH354,PMATH354,TakingThisCourse('PMATH354')
+1,Pure Math,PMATH365,PMATH365,TakingThisCourse('PMATH365')
+1,Pure Math,3 of PMATH4XX,Three of any 400-level PMath course,"CountByFamilyAndLevel('PMATH', 4) >= 3"
+1,Statistics,STAT330,STAT330,TakingThisCourse('STAT330')
+1,Statistics,STAT333,STAT333,TakingThisCourse('STAT333')
+1,Statistics,3 of STAT4XX,Three of any 400-level Stat course,"CountByFamilyAndLevel('STAT', 4) >= 3"
+1,Statistics,1 of STAT3XX or STAT4XX,"One of Stat3XX (except Stat334, 371, 372) or Stat4XX","CountByFamilyAndLevel('STAT', 3) - Count('STAT372') - Count('STAT371') - Count('STAT334') - Count('STAT333') - Count('STAT330') + CountByFamilyAndLevel('STAT', 4) >= 4"
+1,Statistics,3 Math Courses,3 Additional Math Courses (26 Math courses total),NumberOfMathCourses() >= 26
+2,Economics,6 ECXXX,"6 EC courses, including the 3 Double Degree core",CountByFamily('EC') >= 6
+2,Computer Science,CS125/135,CS125 or CS133 or CS135 or CS145,(Count('CS125') + Count('CS133') + Count('CS135') + Count('CS145')) >= 1
+2,Computer Science,CS134/136,CS134 or CS136 or CS146,(Count('CS134') + Count('CS136') + Count('CS146')) >= 1
+2,Computer Science,"2 of CS230, CS234, CS246","2 of: (CS230 or CS241), (CS234 or CS240), CS246","Math.max(Count('CS230'), Count('CS241')) + Math.max(Count('CS234'), Count('CS240')) + Count('CS246') >= 2"
+2,Computer Science,"4 of CS2XX, CS3XX, CS4XX",4 Additional 200-level or higher CS courses,"CountByFamilyAndLevel('CS', 2) + CountByFamilyAndLevel('CS', 3) + CountByFamilyAndLevel('CS', 4) >= 6"
+3,Accounting,4 of Accounting Courses,"Four of BU357, BU387, BU397, BU417, BU427, BU447, BU457, BU466, BU467, BU477, BU487, BU497F",(Count('BU497F') + Count('BU487') + Count('BU477') + Count('BU467') + Count('BU466') + Count('BU457') + Count('BU447') + Count('BU427') + Count('BU417') + Count('BU397') + Count('BU387') + Count('BU357')) >= 4
+3,Brand Communication & Management,BU432,BU432,TakingThisCourse('BU432')
+3,Brand Communication & Management,BU470,BU470,TakingThisCourse('BU470')
+3,Brand Communication & Management,BU472,BU472,TakingThisCourse('BU472')
+3,Brand Communication & Management,1 of Brand Comm. Course,"One of BU402, 412, 422, 452, 462, 469, 479, 482, 492",(Count('BU492') + Count('BU482') + Count('BU479') + Count('BU469') + Count('BU462') + Count('BU452') + Count('BU422') + Count('BU412') + Count('BU402')) >= 1
+3,Business Sustainability,BU455,BU455,TakingThisCourse('BU455')
+3,Business Sustainability,BU461R,BU461R,TakingThisCourse('BU461R')
+3,Business Sustainability,BU461S,BU461S,TakingThisCourse('BU461S')
+3,Business Sustainability,BU485,BU485,TakingThisCourse('BU485')
+3,Entrepreneurship,BU403,BU403,TakingThisCourse('BU403')
+3,Entrepreneurship,BU440,BU440,TakingThisCourse('BU440')
+3,Entrepreneurship,2 of Entrepreneurship Courses,"Two of BU428, BU479, BU498N, BU498P",(Count('BU498P') + Count('BU498N') + Count('BU479') + Count('BU428')) >= 2
+3,Finance,4 of Finance Courses,"Four of Actsc446, BU353, 400, 403, 410, 413, 419, 423, 429, 433, 439, 443, 453, 463, 473, 483, 493",(Count('BU493') + Count('BU483') + Count('BU473') + Count('BU463') + Count('BU453') + Count('BU443') + Count('BU439') + Count('BU433') + Count('BU429') + Count('BU423') + Count('BU419') + Count('BU413') + Count('BU410') + Count('BU403') + Count('BU400') + Count('BU353') + Count('ACTSC446')) >= 4
+3,Financial Planning,BU413,BU413,TakingThisCourse('BU413')
+3,Financial Planning,BU420,BU420,TakingThisCourse('BU420')
+3,Financial Planning,BU483,BU483,TakingThisCourse('BU483')
+3,Financial Planning,1 of Financial Planning Course,"One of BU353, BU357, BU473",(Count('BU353') + Count('BU357') + Count('BU473')) >= 1
+3,Human Resources Management,4 of HR Courses,"Four of BU408, BU418, BU464, BU468, BU414, BU448, BU474",(Count('BU474') + Count('BU448') + Count('BU414') + Count('BU468') + Count('BU464') + Count('BU418') + Count('BU408')) >= 4
+3,Insurance and Risk Management,BU353,BU353,TakingThisCourse('BU353')
+3,Insurance and Risk Management,BU419,BU419,TakingThisCourse('BU419')
+3,Insurance and Risk Management,BU429,BU429,TakingThisCourse('BU429')
+3,Insurance and Risk Management,1 of Risk Management Course,"One of BU412, BU413, BU414, BU423, BU433, BU461P, BU483",(Count('BU483') + Count('BU461P') + Count('BU433') + Count('BU423') + Count('BU414') + Count('BU413') + Count('BU412')) >= 1
+3,International Business,BU416,BU416,TakingThisCourse('BU416')
+3,International Business,BU435,BU435,TakingThisCourse('BU435')
+3,International Business,BU469,BU469,TakingThisCourse('BU469')
+3,International Business,BU489,BU489,TakingThisCourse('BU489')
+3,International Business,BU491,BU491,TakingThisCourse('BU491')
+3,Marketing,BU432,BU432,TakingThisCourse('BU432')
+3,Marketing,3 of Marketing Courses,"Three of BU402, 412, 422, 452, 462, 469, 470, 472, 479, 482, 492",(Count('BU492') + Count('BU482') + Count('BU479') + Count('BU472') + Count('BU470') + Count('BU469') + Count('BU462') + Count('BU452') + Count('BU422') + Count('BU412') + Count('BU402')) >= 3
+3,Supply Chain Management,BU405,BU405,TakingThisCourse('BU405')
+3,Supply Chain Management,BU435,BU435,TakingThisCourse('BU435')
+3,Supply Chain Management,BU445,BU445,TakingThisCourse('BU445')
+3,Supply Chain Management,BU455,BU455,TakingThisCourse('BU455')
+4,CFA Preparation,STAT334 or (STAT330 and STAT333),STAT334 or (STAT330 and STAT333),TakingThisCourse('STAT334') || (TakingThisCourse('STAT330')&&TakingThisCourse('STAT333'))
+4,CFA Preparation,ACTSC445,ACTSC445,TakingThisCourse('ACTSC445')
+4,CFA Preparation,ACTSC446,ACTSC446,TakingThisCourse('ACTSC446')
+4,CFA Preparation,BU383,BU383,TakingThisCourse('BU383')
+4,CFA Preparation,BU397,BU397,TakingThisCourse('BU397')
+4,CFA Preparation,BU473,BU473,TakingThisCourse('BU473')
+4,Math Finance Interest,STAT330,STAT330,TakingThisCourse('STAT330')
+4,Math Finance Interest,STAT333,STAT333,TakingThisCourse('STAT333')
+4,Math Finance Interest,STAT340,STAT340,TakingThisCourse('STAT340')
+4,Math Finance Interest,ACTSC445,ACTSC445,TakingThisCourse('ACTSC445')
+4,Math Finance Interest,ACTSC446,ACTSC446,TakingThisCourse('ACTSC446')
+4,Math Finance Interest,AMATH250,AMATH250,TakingThisCourse('AMATH250')
+4,Math Finance Interest,PMATH331 or PMATH351,PMATH331 or PMATH351,TakingThisCourse('PMATH331') || TakingThisCourse('PMATH351')
+4,ICAO (Chartered Accounting),Financial Accounting Courses,"BU227, BU387, BU397, BU457, BU487",(Count('BU227') + Count('BU387') + Count('BU397') + Count('BU457') + Count('BU487')) >= 5
+4,ICAO (Chartered Accounting),Cost and Management Accounting,"BU247, BU467",(Count('BU247') + Count('BU467')) >= 2
+4,ICAO (Chartered Accounting),Advanced Accounting Elective,"BU417, BU497F",(Count('BU417') + Count('BU497F')) >= 2
+4,ICAO (Chartered Accounting),Auditing,"BU477, BU447, BU486",(Count('BU477') + Count('BU447') + Count('BU486')) >= 3
+4,ICAO (Chartered Accounting),Taxation,"BU357, BU466",(Count('BU357') + Count('BU466')) >= 2
+4,ICAO (Chartered Accounting),Business Information Systems,BU486,TakingThisCourse('BU486')
+4,ICAO (Chartered Accounting),Misc DD Requirements,"BU383, BU393, EC120, EC140, BU231",(Count('BU383') + Count('BU393') + Count('EC120') + Count('EC140') + Count('BU231')) >= 5
+2,Statistics Minor,MATH237,MATH237/247,TakingThisCourse('MATH237') || TakingThisCourse('MATH247')
+2,Statistics Minor,"3 of STAT330, STAT331, STAT332, STAT333","3 of STAT330, STAT331, STAT332, STAT333",(Count('STAT330') + Count('STAT331') + Count('STAT332') + Count('STAT333')) >= 3
+2,Statistics Minor,"2 of STAT3XX, STAT4XX",Two additional 300- or 400-level STAT courses.,"(CountByFamilyAndLevel('STAT', 3) + CountByFamilyAndLevel('STAT', 4)) >= 5"
